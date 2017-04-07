@@ -1,0 +1,12 @@
+{
+    "name": "emb-shebshe/ci-php-test",
+    "description": "Continuous integration php test project",
+    "type": "project",
+    "require": {
+        "php": "^5.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "license": "MIT"
+}
