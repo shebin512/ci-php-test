@@ -1,5 +1,16 @@
 # ci-php-test
 
+## Install php 5.6.x
+```sh
+sudo apt -y update
+sudo add-apt-repository ppa:ondrej/php
+sudo apt -y update
+sudo apt -y install php5.6 php5.6-mcrypt php5.6-mbstring php5.6-curl php5.6-cli php5.6-mysql php5.6-gd php5.6-intl php5.6-xsl php5.6-zip
+
+#disable apache2
+sudo update-rc.d apache2 remove  # to re-enable sudo update-rc.d apache2 defaults
+```
+
 ## install composer
 ```sh
 mkdir -p ~/bin
